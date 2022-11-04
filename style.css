@@ -1,0 +1,20 @@
+body {
+    background: fixed;
+    background-color: #CCFFFF
+}
+.title {
+    font-family: sans-serif;
+    font-style: italic;
+    color: dark;
+}
+.description {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
+.header {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
+.gioithieu {
+    font-family: serif;
+}

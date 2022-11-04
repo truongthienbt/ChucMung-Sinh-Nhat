@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minh t can het</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <h1 class="title">Tran Dang Khoi</h1>
+    </div>
+    <div>
+        <h3 class="description">Info anh khoi cho anh em nao can</h3>
+    </div>
+    <section>
+        <nav>
+          <ul>
+            <li>
+                <a
+                  href="https://www.tiktok.com/@khoiiohk"
+                  class="icon brands fa-tiktok"
+                  ><span class="label">Tiktok</span></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.facebook.com/profile.php?id=100059378118505"
+                  class="icon brands fa-facebook-f"
+                  ><span class="label">Facebook</span></a
+                >
+              </li>
+          </ul>
+        </nav>
+    </section>
+        <h3 class="header">Day anh em oi</h3>
+        <div>
+            <section>
+                <article>
+                    <h1>À quên giới thiệu về anh khôi tí</h1>
+                    <li><a>Tên thật là: Trần Đăng Khôi</a></li>
+                    <li><a>Tuổi: 15</a></li>
+                        <li><a>Sống tại: Gò Quao Kiên Giang</a></li>
+                            <li><a>Học vấn: Giỏi</a></li>
+                                <li><a>Học lớp: 8a1</a></li>
+                                <li><a>Đam mê: Edit ảnh, TikTok, Chọc ghẹo Tân Khoa</a></li>
+                                    <p class="gioithieu">Theo lời anh ấy kể thì anh ấy ngày hít 5 tấn đá. Nói vậy thôi anh ấy là 1 người bạn rất tốt mỗi lúc tôi bị gọi anh ấy đều giúp tôi trả lời anh ấy chính là 1 người bạn tốt.</p>
+                  </article>
+            </section>
+        </div>
+        <h2>À mà tiện thể</h2>
+        <p>Chúc mừng sinh nhật vui vẻ nha. Chúc khôi thi giỏi tất cả môn, làm được điều mình mơ ước.</p>
+        <form>
+            <button id="ClickNow" class="ClickNow" type="button">Chuc Mung</button>
+        </form>
+</body>
+<script>
+    function playSound() {
+        const audio = new Audio('loichuc.mp3')
+        audio.play()
+    }
+
+    const ClickNow = document.querySelector('#ClickNow')
+
+    ClickNow.onclick = () => {
+        playSound();
+    }
+</script>
+</html>
